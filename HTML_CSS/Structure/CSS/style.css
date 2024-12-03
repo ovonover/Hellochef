@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Helvetica, Arial,  sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    /* Top, Right, Bottom, Left (Clockwise Movement) for the properties */
+}
+
+.navbar .fa-bars{
+    font-size: 30px;
+    color: #8f8e8e;
+}
+
+.navbar .logo{
+    width: 150px;
+    margin: auto;
+}
+
+/* HERO */
+.herotext h1{
+   color: #484848;
+   font-size: 30px;
+   font-weight: 800;
+   line-height: 35px;
+}
+
+.herotext p{
+    top: 80px;
+    color: #757575;
+    margin: 10px 0 22px ;
+}
+
+.herotext button{
+    color: #fff;
+    background-color: #e42a12;
+    padding: 18px 90px;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    border-radius: 40px;
+}
+
+.hero{
+    position: relative;
+}
+
+.hero img{
+    width: 100%;
+}
+
+.hero .herotext{
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    padding: 0px 26px;
+}
+
+
+/* 2ndsection */
+
+/* .icons-tick{
+    list-style-type: none;
+    padding: 0;
+}
+
+.icons-tick li{
+    background: url(/images/check.png) no-repeat left center;
+    background-size: 16px 16px;
+    padding-left: 24px;
+} */
+
+.sectionTwo{
+    padding: 50px 30px;
+    text-align: center;
+}
+.sectionTwo h2{
+    margin-bottom: 5px;
+    color: #484848;
+}
+
+.sec2text{
+    margin-bottom: 45px;
+}
+
+.sec2text p{
+    padding: px;
+}
+
+.sectionTwo p{
+    color: #757575;
+}
+
+.sectionTwo .principle-container p{
+   color: #484848;
+   font-size: 16px;
+   padding: 2px 0;
+   font-weight: 400;
+   /* font-size: 14px; */
+}
+
+.sectionTwo .principle-container{
+    margin: 20px 0;
+}
+
+.sectionTwo img{
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.sectionTwo .principle{
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.sectionTwo .fa-check{
+    color: #4fc546;
+    padding-right: 5px;
+    font-size: 15px;
+}
+
+.sectionTwo h3{
+    font-size: 20px;
+    margin: 8px 0 11px ;
+    font-weight: 600;
+    color: #484848;
+}
+
+ /* 3RD SECTION */
+
+.sectionThree{
+    text-align: center;
+    background-color: #FAE6DF;
+}
+
+.sectionThree .numlist div{
+    display: flex;
+    padding: 5px 0;
+}
+
+.numlist{
+    margin: 28px 0 20px;
+     font-size: 19px; 
+}
+
+.numlist p{
+    padding-top: 6px; 
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 16px; 
+    color: #1a1a1a;
+}
+
+.sectionThree h3{
+    margin-right: 10px;
+    color: #FF956F;
+    font-size: 24px;
+}
+
+.sectionThree .text-basedcontent{
+    padding: 0 30px 0 30px;
+    margin-top: 26px;
+    margin-bottom: 19px;
+}
+
+.sectionThree img{
+    width: 100%;
+}
+
+.headertxt h2{
+    color: #E52A13;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 45px;
+} 
+
+.headertxt p{
+    color: #1a1a1a;
+    font-size: 13px;
+    font-weight: 420;
+}
+
+.sectionThree button{
+    color: #fff;
+    background-color: #e42a12;
+     padding: 18px 90px;
+    padding: 14px 140px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 40px;
+} 
+
+.sectionThree .background-image{
+    background-image: url(/images/Family_cooking.webp);
+    height: 500px;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+/* 
+ch
+em
+rem
+px - %
+vh - svh
+vw - svw
+
+CSS units to research
+*/
+
+/* 4TH SECTION */
+
+.sectionFour{
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.sectionFour h2{
+    color: #484848;
+    font-weight: 700;
+}
+
+.sectionFour p{
+    padding-top: 15px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.sectionFour button{
+    color: #fff;
+    background-color: #e42a12;
+    padding: 14px 150px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 40px;
+}
+
+/* 5TH SECTION */
+
+.sectionFive{
+    background-color: #F3F5F7;
+    text-align: center;
+    padding: 20px;
+}
+
+.sectionFive .title-sec{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 28px;
+    padding-left: 75px;
+    object-position: center;
+    text-align: center;
+}
+
+.sectionFive .title-sec h3{
+    font-weight: 400;
+    text-decoration: underline;
+    color: #484949;
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+.sectionFive .title-sec img{
+    width: 15%;
+    height: 15%;
+    padding-top: 5px;
+}
+
+.sectionFive .image-collection{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.sectionFive .image-collection img{
+    width: 100%;
+    height: auto;
+}
+
+.sectionFive .catch-phrase{
+    font-size: 28px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    line-height: 39px;
+    color: #484848;
+}
+ 
+.sectionFive .catch-phrase span{
+    color: #e42a12;
+}
+
+.sectionFive .rating-rep{
+    display: flex;
+    position: relative;
+    right: 5px;
+    bottom: 7px;
+}
+
+.sectionFive .rating-rep img{
+    width: 19%;
+    height: 19%;
+}
+
+.sectionFive .rating-rep p{
+    font-weight: 300;
+    padding-left: 20px;
+    padding-right: 9px;
+}
+
+.sectionFive .rating-rep .fa-solid{
+    color: #F7AC01;
+    padding-left: 2px;
+    padding-top: 4px;
+} 
+
+/* .sectionFive .rating-rep .fa-star-half-stroke{
+    color: #F7AC01;
+    padding-left: 2px;
+    padding-top: 4px;
+} */
+
+.sectionFive .card-collec{
+    background-color: #FFFFFF;
+    border-radius: 13px;
+    display: flex;
+    margin: 85px 0;
+    filter: drop-shadow(0 0 2px
+    rgba(46, 46, 46, 0.2));
+}
+
+.sectionFive .card-collec .badge-text span{
+    /* display: inline; */
+    position: relative;
+    bottom: 10px;
+    background-color: #e43b50;
+    font-size: 11px;
+    padding: 3px 7px;
+    border-radius: 50px;
+    font-weight: 700;
+    margin-left: 9px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.sectionFive .card-collec img{
+    width: 68px;
+    height: 68px;
+    margin-top: 15px;
+    /* padding-bottom: 9px; */
+    padding-left: 9px;
+}
+
+.sectionFive .card-collec .text-basedcard{
+    display: inline;
+    text-align: left;
+    padding: 19px 9px 19px 4px;
+    font-size: 14px;
+}
+
+.sectionFive .card-collec .text-basedcard h4{
+    font-size: 15px;
+    color: #484848;
+} 
+
+.sectionFive .card-collec .text-basedcard span{
+    color: #e42a12;
+}
+
+.sectionFive .card-collec .text-basedcard p{
+    color: #484848;
+    margin-top: 4px;
+    margin-right: 17px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sectionFive .card-collec .text-basedcard .io{
+    color: #e42a12;
+    text-decoration: underline;
+}
+
+.sectionFive .card-collec .text-basedcard .fa-chevron-right{
+    color: #e42a12;
+    font-size: 9px;
+}
+
+/* 6TH SECTION */
+
+.sectionSix{
+    padding: 25px;
+    text-align: center;
+    background-color: #fff4ee;
+}
+
+.sectionSix .inside-box{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 50px 25px;
+}
